@@ -1,0 +1,11 @@
+# ScholarGuardian Python 依赖
+# 安装：pip install -r requirements.txt（PEP 668 环境请先建 venv）
+
+# PDF 全文解析
+PyMuPDF>=1.24
+
+# 向量数据库（持久化索引）
+chromadb>=0.4
+
+# 本地 Embedding 模型（all-MiniLM-L6-v2，首次运行自动下载权重）
+sentence-transformers>=2.6
